@@ -19,6 +19,7 @@ This part of the code is where i get the output of what it have calculated for m
 
 ```
 print "============================================"
+print ""
 print "XOR FORUDSEELSE:"
 print ""
 print x
@@ -42,7 +43,7 @@ The way to use this Neural network is either to run it through python cmd or you
 
 and after simply just type this to make it run
 ```
-python NN2.py
+python Binary.py
 ```
  Afterwards you can see it have run 100 different simulations which are called "Generations" because after each generation you can see it have been getting better in "Loss" section and that it because at every Generation we have trained it to be faster over time
 
