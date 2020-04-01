@@ -83,7 +83,12 @@ for epoch in range(100):
 
 # Try to predict something
 
-x = np.random.binomial(1, 0.5, n_in)
+x = np.random.binomial(1, 0.1, n_in)
+print ("==================================================")
+print ()
 print ('XOR prediction:')
+print ()
 print (x)
 print (predict(x, *params))
+print ()
+print ("==================================================")
